@@ -48,6 +48,11 @@ a.current {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -219,9 +224,6 @@ a.current {
 /* ----CHARACTERISTIC---- */
 
 .characteristic {
-  padding-top: 94px;
-  padding-bottom: 47px;
-
   background-color: var(--primary-bg-color);
 }
 
@@ -250,9 +252,8 @@ a.current {
 
 /* -----WORK AND TEAM----- */
 
-.work {
-  padding-top: 47px;
-  padding-bottom: 94px;
+.work.section {
+  padding-top: 0px;
   background-color: var(--primary-bg-color);
 }
 
@@ -289,8 +290,6 @@ a.current {
 }
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -384,11 +383,6 @@ a.current {
 }
 
 /* -----PORTFOLIO----- */
-
-.portfolio.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .section-list-buttom {
   display: flex;
